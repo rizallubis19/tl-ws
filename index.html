@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telusur Langkah - Home</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/61720f13e2.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!-- NAVIGASI -->
+    <nav id="navBar" class="navbar-white">
+        <a href="index2.html"><img src="img/logo.png" class="logo" alt=""></a>
+        <ul class="nav-links">
+            <li><a href="#" class="home">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="destinasi.html">Destinasi Pilihan</a></li>
+            <li><a href="listing.html">Katalog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="booking.html" class="register-btn">Booking Now</a>
+        <i class="fa fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+     <!-- HEADER SLIDER -->
+    <div class="slideshow-container">
+        <!-- slide 1 -->
+        <div class="mySlides fade">
+            <img src="img/1.jpg" style="width: 100%;" alt="" class="img">
+            <div class="container-search">
+                <h1>Telusur Langkah</h1>
+                <h2>Find Your Next Wonderful Journey</h2>
+                <div class="search-bar">
+                    <form >
+                        <div class="location-input">
+                            <label>Location</label>
+                            <input type="text" placeholder="4 Destinasi Utama">
+                        </div>
+                        <div>
+                            <label>Date</label>
+                            <input type="text" placeholder="2 Kali Perbulan">
+                        </div>
+                        <div>
+                            <label>People</label>
+                            <input type="text" placeholder="Dengan 50+ Pelancong">
+                        </div>
+                        <div>
+                            <label>Day</label>
+                            <input type="text" placeholder="Sabtu dan Minggu + Private time">
+                        </div>
+                        <button type="submit"><img src="img/travel.webp" alt="" width="50px" ></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- slide 2 -->
+        <div class="mySlides fade">
+            <img src="img/2.jpg" style="width: 100%;" alt="" class="img">
+            <div class="container-search">
+                <h1>Telusur Langkah</h1>
+                <h2>Find Your Next Wonderful Journey</h2>
+                <div class="search-bar">
+                    <form >
+                        <div class="location-input">
+                            <label>Location</label>
+                            <input type="text" placeholder="4 Destinasi Utama">
+                        </div>
+                        <div>
+                            <label>Date</label>
+                            <input type="text" placeholder="2 Kali Perbulan">
+                        </div>
+                        <div>
+                            <label>People</label>
+                            <input type="text" placeholder="Dengan 50+ Pelancong">
+                        </div>
+                        <div>
+                            <label>Day</label>
+                            <input type="text" placeholder="Sabtu dan Minggu + Private time">
+                        </div>
+                        <button type="submit"><img src="img/travel.webp" alt="" width="50px"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- slide 3 -->
+        <div class="mySlides fade">
+            <img src="img/3.jpg" style="width: 100%;" alt="" class="img">
+            <div class="container-search">
+                <h1>Telusur Langkah</h1>
+                <h2>Find Your Next Wonderful Journey</h2>
+                <div class="search-bar">
+                    <form >
+                        <div class="location-input">
+                            <label>Location</label>
+                            <input type="text" placeholder="4 Destinasi Utama">
+                        </div>
+                        <div>
+                            <label>Date</label>
+                            <input type="text" placeholder="2 Kali trip Perbulan">
+                        </div>
+                        <div>
+                            <label>People</label>
+                            <input type="text" placeholder="Dengan 50+ Pelancong">
+                        </div>
+                        <div>
+                            <label>Day</label>
+                            <input type="text" placeholder="Sabtu-Minggu + Private time">
+                        </div>
+                        <button type="submit"><img src="img/travel.webp" alt="" width="50px"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+    </div>
+    
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+    </div>
+    <!-- ------------------------Akhir slide------------------------- -->
+    
+    <!-- Container -->
+    <div class="container">
+    <!-- Opening -->
+    <div class="about-msg">
+        <h3 class="sub-title">About Telusur Langkah</h3>
+        <h2>Eksplor Gunung, Hutan, dan Laut Sumatera </h2> 
+        <p>Langkah adalah Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cumque culpa maxime fuga ex ea eius fugit quis, mollitia fugiat, obcaecati dolore voluptatem beatae? Eaque atque vitae iusto unde odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, quas modi molestias non et voluptatibus? Qui expedita temporibus delectus laboriosam voluptatum dolores fugit aperiam eveniet ducimus? Natus possimus perferendis beatae.</p> <br> <br>
+        <a href="about.html" class="cta-btn">Know More</a> <br> <br>
+        <hr>
+    </div>
+
+      <!-- EXCLUSIVE SECTION -->
+        <h2 class="sub-title">  Gallery</h2>
+        <div class="gallery-home">
+            <div>
+                <img src="img/23.jpg" alt="">
+                <span>
+                    <h4>Langkat</h4>
+                </span>
+            </div>
+            <div>
+                <img src="img/25.jpg" alt="">
+                <span>
+                    <h4>Bali</h4>
+                </span>
+            </div>
+            <div>
+                <img src="img/26.jpg" alt="">
+                <span>
+                    <h4>Aceh</h4>
+                </span>
+            </div>
+            <div>
+                <img src="img/9.jpg" alt="">
+                <span>
+                    <h4>Samosir</h4>
+                </span>
+            </div>
+            <div>
+                <img src="img/19.jpg" alt="">
+                <span>
+                    <h4>Pulau Banyak</h4>
+                </span>
+            </div>
+            <div>
+                <img src="img/20.jpg" alt="">
+                <span>
+                    <h4>Padang</h4>
+                </span>
+            </div>
+            <div>
+                <img src="img/21.jpg" alt="">
+                <span>
+                    <h4>Toba</h4>
+                </span>
+            </div>
+            <div>
+                <img src="img/22.jpg" alt="">
+                <span>
+                    <h4>Brastagi</h4>
+                </span>
+            </div>
+        </div>
+
+        <!-- SUPPORT SECTION -->
+        <section class="abuabu" id="support">
+            <div class="layar-dalam support">
+                <div>
+                    <img src="asset/matahari.png" />
+                    <h6>Siap Disetiap Kondisi</h6>
+                    <p>
+                        Siap Melayani Pelancong di setiap kondisi, sesuai dengan permintaan, dan menjelajah wisata alam seperti sungai, air terjun, dan daerah pegunungan.
+                    </p>
+                </div>
+                <div>
+                    <img src="asset/compas.png" />
+                    <h6>Guide Berpengalaman</h6>
+                    <p>
+                        Memiliki pemandu wisata berpengalaman dan pastinya pengetahuan tentang destinasi sehingga memastikan pelancong puas.dengan peralatan dan prasarana pendukung yang lengkap untuk membuat trip yang nyaman dan aman.
+                    </p>
+                </div>
+                <div>
+                    <img src="asset/bag.webp" />
+                    <h6>Prasarana yang Lengkap</h6>
+                    <p>
+                        Memastikan kelancaran trip dengan peralatan dan prasarana pendukung yang lengkap untuk membuat pelancong mendapatkan pengalaman liburan yang nyaman dan aman.
+                    </p>
+                </div>                    
+            </div>
+        </section>
+
+        <!-- TRENDING PLACE -->
+        <h2 class="sub-title">Trending Places</h2>
+        <div class="trending">
+            <div>
+                <img src="img/12.JPG" alt="">
+                <h3>Pulau Banyak</h3>
+            </div>
+            <div>
+                <img src="img/13.JPG" alt="">
+                <h3>Pulau Kalimuntung</h3>
+            </div>
+            <div>
+                <img src="img/15.jpg" alt="">
+                <h3>Pulau Samosir</h3>
+            </div>
+            <div>
+                <img src="img/11.jpg" alt="">
+                <h3>Pulau Pandang</h3>
+            </div>
+        </div>
+
+        <!-- TEAM SECTION -->
+        <div class="cta">
+            <h3>Our Profesional Team</h3>
+            <p>Team Kami adalah orang-orang berpengalaman dengan pengetahuan wisata yang terjamin dan siap memberikan pelayanan terbaik untuk pelancong.</p>
+            <a href="team.html" class="cta-btn">Know More</a>
+        </div>
+
+        <!-- TRAVELLERS STORY -->
+        <h2 class="sub-title">Travellers Stories</h2>
+        <div class="stories">
+            <div>
+                <img src="img/14.JPG" alt="">
+                <p>"Jangan pikir 2 kali untuk liburan, Just do it!"</p>
+            </div>
+            <div>
+                <img src="img/16.jpg" alt="">
+                <p>"Saya tidak lagi sama, setelah melihat senja di belahan bumi lain"</p>
+            </div>
+            <div>
+                <img src="img/27.jpg" alt="">
+                <p>"Cara terbaik mengukur sebuah perjalanan adalah teman bukan jarak"</p>
+            </div>
+        </div>
+        <a href="booking.html" class="start-btn">Start Your Journey Now</a>
+
+        <!-- Quotes -->
+        <div class="about-msg">
+            <h2>Quotes of Your Journey</h2>
+            <p>“<span class="auto-input"></span>”</p>
+            <p>“The journey not the arrival matters.” – T. S. Elio</p> <br>
+            <p>Traveling itu bukan masalah akhir dari perjalananmu, melainkan proses dalam petualanganmu itu sendiri. Hanya kamu yang bisa memaknai sendiri setiap perjalananmu.</p>
+        </div>
+
+         <!-- Testimonials -->
+         <section class="abuabu" id="blog">
+            <div class="layar-dalam">
+                <h3 class="sub-title">Testimonials</h3>
+                <p class="ringkasan">Testimonial dari beberapa Traveller</p>
+                <div class="testimonials">
+                    <div class="row">
+                        <div class="testimonials-col">
+                            <img src="asset/tim3.jpeg" alt="">
+                            <div>
+                                <p><i class="fa-solid fa-quote-left"></i>Pelayanannya sangat nyaman, dan mendukung saran untuk waktu booking ditambah lagi di luar waktu weekend.<i class="fa-solid fa-quote-right"></i></p>
+                                <h2>Josepri Padang</h2>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonials-col">
+                            <img src="asset/tim1.jpeg" alt="">
+                            <div>
+                                <p><i class="fa-solid fa-quote-left"></i>Pengalamam yang sangat berharga bisa berpetualang dengan @telusurlangkah menikmati wisata alam bumi pertiwi yang sangat memanjakan mata.<i class="fa-solid fa-quote-right"></i></p>
+                                <h2>Evanson Sihotang</h2>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonials-col">
+                            <img src="asset/tim2.jpeg" alt="">
+                            <div>
+                                <p><i class="fa-solid fa-quote-left"></i>Sangat membantu untuk mendapatkan pengalaman liburan yang sangat puas dengan menjelejahi spot wisata yang tak terduga.<i class="fa-solid fa-quote-right"></i></p>
+                                <h2>Muhammad Rizky</h2>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>    
+    </div>    
+
+         <!-- Footer -->
+         <footer>
+            <div class="layar-dalam">
+                <div>
+                    <h5>Info</h5>
+                    Dapatkan Info lebih lanjut mengenanai Telusur Langkah di Sosial Media Kami. <br>
+                    <a href="https://www.instagram.com/telusurlangkah/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/telusurlangkah/"><i class="fa-brands fa-facebook"></i></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div>
+                    <h5>Contact</h5>
+                    Anda Dapat Menghubungi kami via kontak dibawah ini <br>
+                    <i class="fa-brands fa-whatsapp"></i>: +0822 5939 4034
+                </div>
+                <div>
+                    <h5>Help</h5>
+                    Kunjungi informasi lebih lanjut mengenai Sumatera Utara di <a href="https://www.sumutprov.go.id">Sumutprov</a>
+                </div>
+            </div>
+
+            <!-- copyright -->
+            <div class="layar-dalam">
+                <div class="copyright">
+                    &copy : 2022 Telusur Langkah for Promotion.
+                </div>
+            </div>
+        </footer>
+     
+    <!-- JQUERY LINK  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
+
+    <!-- js for quotes -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-input", {
+        strings: ["If you're","already a front-end developer", "well pretend", "you're also wearing a pirate hat."],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+
+    <!-- js for toggle menu -->
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+
+<script src="css/script.js"></script>
+</body>
+</html>

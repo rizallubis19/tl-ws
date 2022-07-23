@@ -1,0 +1,246 @@
+/* responsive */
+/* Layar Tablet & HP */
+/* for small screen devices */
+@media only screen and (max-width: 700px) {
+  /* LOGO */
+
+  /* SLIDE */
+  .slideshow-container .mySlides{
+    height: 500px;
+    margin-top: 100px;
+  }
+  .slideshow-container .mySlides .img{
+    height: 400px;
+  }
+  .logo {
+    position: fixed;
+    top: 3%;
+    left: 7%;
+  }
+  .header {
+    min-height: 80vh;
+  }
+  /* NAVIGASI */
+  nav {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 7% 0;
+    background: rgb(46, 42, 42);
+    text-align: right;
+    max-height: 97px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  nav .nav-links li {
+    margin: 10px 0;
+    display: block;
+  }
+  /* BOOKING */
+  .register-btn {
+    margin: 15px 0 30px;
+    display: inline-block;
+  }
+  /* HUMBERGER MENU */
+  nav .fa-bars {
+    display: block;
+    position: fixed;
+    top: 4%;
+    right: 7%;
+    color: rgb(226, 15, 15);
+    font-size: 28px;
+  }
+  /* ACTIVE PAGE */
+  .active::after, .home::after {
+    left: -40px;
+    transform: translate(0, 50%);
+    bottom: 50%;
+  }
+  .hidemenu {
+    max-height: 310px;
+  }
+  /* JUDUL */
+  .header h1 {
+    padding-top: 180px;
+    font-size: 5vw;
+  }
+  /* SEARCH */
+  .container-search {
+    top: 3%;
+    left: 25%;
+  }
+  .search-bar {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 10px 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .search-bar form {
+    display: block;
+  }
+
+  .search-bar form input {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 17px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .search-bar form button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  /* Gallery */
+  .gallery-home {
+    margin: 10px auto;
+  }
+  .gallery-home div {
+    width: 85px;
+  }
+  .gallery-home div span h4 {
+    font-size: 10px;
+  }
+  /* SUB JUDUL */
+  .sub-title {
+    font-size: 6vw;
+  }
+  /* CTA */
+  .cta {
+    padding: 15% 5%;
+  }
+  .cta h3 {
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+  .cta p {
+    font-size: 14px;
+  }
+  .cta-btn {
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  /* TRAVELLER STORIES */
+  .stories p {
+    font-size: 22px;
+  }
+  .about-msg {
+    font-size: 15px;
+  }
+  .header {
+    background-size: cover;
+  }
+   /* testimonials */
+   .testimonials-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  footer .layar-dalam .fa-brands,
+  .fa-solid {
+    color: #f44336;
+    font-size: 15px;
+    padding-right: 2px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 991.98px) {
+  .layar-dalam {
+    width: 90%;
+  }
+
+  .logo {
+    width: 50px;
+    cursor: pointer;
+  }
+  .support {
+    display: block;
+  }
+  .support div {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* testimonials */
+  .testimonials-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  .testimonials-col h2 {
+    font-size: 10px;
+  }  
+}
+
+/* -------------------------------------- */
+/* small query for listing page */
+@media only screen and (max-width: 700px){
+  .list-container{
+    margin-top: 150px;
+  }
+  .left-col, .right-col, .house-img, .house-info {
+    flex-basis: 100%;
+  }
+  .left-col h1{
+    font-size: 18px;
+  }
+  .house-info h3{
+    font-size: 18px;
+  }
+  .house-info i {
+    font-size: 16px;
+  }
+  .pagination span{
+    margin: 10px 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+  /* CONTACT MAP */
+  .location {
+    margin-top: 90px;
+  }
+  /* BMC */
+  .about-col-2 img{
+    width: 70%;
+  }
+  /* Booking */
+  .container-empat {
+    width: 300px;
+    margin-top: 70px;
+  }
+  .card {
+    display: none;
+  }
+  /* ----------------------- */
+  /* Destinasi */
+  .house-details {
+    margin-top: 50px;
+  }
+  .house-details .house-title h1{
+    font-size: 18px;
+  }
+  .small-details h4 {
+    font-size: 13px;
+  }
+
+  /* -------------------------- */
+  /* Booking */
+  .container-empat {
+    margin-top: 150px;
+  }
+  .contact-col div img {
+    display: none;
+  }
+}
